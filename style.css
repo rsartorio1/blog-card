@@ -64,15 +64,17 @@
         font-family: "Figtree", sans-serif;
         font-weight: 800;
         font-size: 12px;
+        text-align: center;
     }
 
     .cardbody p {
-        margin: 18px 0px;
+        margin: 15px 0px;
+        font-size: 14px;
     }
 
     .cardbody a {
         font-weight: 800;
-        font-size: 18px;
+        font-size: 20px;
         text-decoration: none;
         color: var(--Black);
     }
