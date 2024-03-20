@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+:root {
+--White: #ffffff;
+--Grey: #808080;
+--Black: #121212;
+--Yellow: #f4d04e;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body, html {
+        background-color: var(--Yellow);
+
+        height: 100vh;
+        width: 100vw;
+
+        font-family: "Figtree", sans-serif; 
+        font-weight: 500, 800;
+    }
+
+    .card {
+        background-color: var(--White);
+
+        height: 500px;
+        width: 350px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        padding: 20px;
+        border-radius: 20px;
+        border: 1px solid var(--Black);
+        box-shadow: 10px 10px 0px var(--Black);
+    }
+
+    #n1 {
+        width: 100%;
+        height: 100%;
+        
+        display: block;
+
+        border-radius: 10px; 
+    }
+
+    .tag {
+        background-color: var(--Yellow);
+
+        width: 70px;
+        padding: 5px;
+        margin: 25px 0px;
+        border-radius: 5px; 
+
+        font-family: "Figtree", sans-serif;
+        font-weight: 800;
+        font-size: 12px;
+    }
+
+    .cardbody p {
+        margin: 18px 0px;
+    }
+
+    .cardbody a {
+        font-weight: 800;
+        font-size: 18px;
+        text-decoration: none;
+        color: var(--Black);
+    }
+
+    .cardbody a:hover {
+        color: var(--Yellow);
+    }
+
+    #text {
+        color: var(--Grey);
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+    
+    #n2 {
+        display: inline-block;
+    }
+    .cardfooter p {
+        display: block;
+        float: right;
+        margin-right: 180px;
+        margin-top: 10px;
+        font-weight: 800;
+        font-size: 12px;  
+    }
+
+    .avatar img {
+        height: 32px;
+        width: 32px;
+
+        display: block;
+        float: left;
+    }
